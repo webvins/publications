@@ -1,0 +1,420 @@
+
+<!-- Design by  -->
+
+<!DOCTYPE html>
+<html lang="bg">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+        <meta name="description" content="Списък публикации"/>                   
+        <link media="all" type="text/css" rel="stylesheet" href="https://publications.ue-varna.bg/assets/css/cmsv5.css">
+
+        <link media="all" type="text/css" rel="stylesheet" href="https://publications.ue-varna.bg/assets/css/normalize.css">
+
+        <link media="all" type="text/css" rel="stylesheet" href="https://publications.ue-varna.bg/assets/css/clickmap.css">
+     
+        <link media="all" type="text/css" rel="stylesheet" href="https://publications.ue-varna.bg/assets/css/bootstrap.css">
+
+        <link media="all" type="text/css" rel="stylesheet" href="https://publications.ue-varna.bg/assets/css/jquery-ui.css">
+
+		<script src="https://publications.ue-varna.bg/assets/js/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
+        <link rel="apple-touch-icon" sizes="60x60" href="https://publications.ue-varna.bg/assets/img/apple-icon-60x60.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://publications.ue-varna.bg/assets/img/favicon-32x32.png">
+
+        <script>var BASE = "https://publications.ue-varna.bg";</script>
+        <script>var localeCheck = "bg";</script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+        <title> Списък публикации </title>   
+    </head>
+    <body>
+        <div id="wrapper" class="container-fluid" style="padding:0px;">
+            <div class="row remove-margin">
+                <div class="branded" style="position:relative;">
+                    <div style="width:186px;height:186px;position:absolute;top:0;right:0;padding:15px;background:white;z-index:1;">
+                            <a class="" href="#"><img src="https://publications.ue-varna.bg/assets/img/IU.png" class="img-responsive center-block" alt="Logo"> </a>
+                    </div>
+                </div>
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 remove-padding bg-light left-column">
+                    <div class="logo-section bg-white">
+                        <a href="http://publications.ue-varna.bg">
+                            <img src="https://publications.ue-varna.bg/assets/img/Logo.png" class="img-responsive center-block" alt="Logo"> 
+                        </a>
+                    </div>
+                    <div class="main-nav">
+                        <ul class="nav nav-pills nav-stacked left-menu text-white" id="stacked-menu">
+                                        
+                                                                                            <li class="menu-item bg-dark">
+                                    
+                                    <a href="https://publications.ue-varna.bg/home">Начало</a>  
+                                </li>
+                                                                                                                            <li class="menu-item bg-dark">
+                                    
+                                    <a href="https://publications.ue-varna.bg/news">Новини</a>  
+                                </li>
+                                                                                                                                        
+                                    
+                                    <li class="menu-item bg-light">
+                                        <a href="#" data-target="#item2" data-toggle="collapse" data-parent="#stacked-menu">Справки <i class="glyphicon glyphicon-chevron-down pull-right" style="padding-top: 3px;padding-right:20px"></i></a>
+                                        <ul class="nav nav-pills nav-stacked collapse in" id="item2">
+                                                                                        <li class="menu-nested-item active-subitem">
+                                                <a href="https://publications.ue-varna.bg/authors">По Преподавател</a>
+                                            </li>
+                                                                                        <li class="menu-nested-item ">
+                                                <a href="https://publications.ue-varna.bg/phd-students">По Докторант</a>
+                                            </li>
+                                                                                        <li class="menu-nested-item ">
+                                                <a href="https://publications.ue-varna.bg/phd-programmes">По Дoкторска програма</a>
+                                            </li>
+                                                                                        <li class="menu-nested-item ">
+                                                <a href="https://publications.ue-varna.bg/departments">По Катедра</a>
+                                            </li>
+                                                                                        <li class="menu-nested-item ">
+                                                <a href="https://publications.ue-varna.bg/faculties">По Факултет</a>
+                                            </li>
+                                                                                        <li class="menu-nested-item ">
+                                                <a href="https://publications.ue-varna.bg/guest/publications/view">Общо Публикации</a>
+                                            </li>
+                                                                                        <li class="menu-nested-item ">
+                                                <a href="https://publications.ue-varna.bg/statistics">Статистика</a>
+                                            </li>
+                                                                                    </ul>
+                                    </li>
+                                                                                                                                                                <li class="menu-item bg-dark">
+                                    
+                                    <a href="https://publications.ue-varna.bg/user/login">Вход</a>  
+                                </li>
+                                                                                                                            <li class="menu-item bg-dark">
+                                    
+                                    <a href="https://publications.ue-varna.bg/user/register">Регистрация</a>  
+                                </li>
+                                                                                                                    </ul>
+                    </div>
+                    <div class="brand-section">
+                        <a class="" href="https://www.ue-varna.bg/" title="Икономически университет - Варна"><img src="https://publications.ue-varna.bg/assets/img/IU.png" class="img-responsive center-block" alt="Logo"> </a>
+                    </div>
+                </div>
+                               
+                                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 remove-padding right-column">
+                    <div class="header bg-white ">
+
+                    </div>
+                    <div class="big-title-container text-center bg-dark text-white">
+                        <h2 class="remove-margin"> Регистър публикации акадeмичен състав </h1>
+                            <h3 class="remove-margin"> Икономически университет - Варна </h2>
+                    </div>
+
+                            <div class="form-body-section bg-white">
+        <div class="wrap-me clearfix">
+           			<div class="form-title"> 
+				Списък публикации на <br/>Аврам Моис Ескенази
+				<div class="ribbon"></div>
+			</div>
+                                                                    <form method="POST" action="https://publications.ue-varna.bg/list-author-filter" accept-charset="UTF-8" class="" enctype="multipart/form-data"><input name="_token" type="hidden" value="RW8XR7Op4qjsswHmVjTMxwQtlItjqU2VUym0wHFp">
+            <input name="key" type="hidden" value="O7Pj">
+            <input name="order" type="hidden" value="desc">
+            <input name="flag" type="hidden" value="year_pub">
+            <div class="form-validate form-inline">
+                <div class="form-group" style="">
+                    <label for="type" class="control-label" style="margin-right:35px;">Вид</label>
+                    <div class="select-style" style="margin-right:30px;width:158px;">
+                        <select class="" id="type" name="type"><option value="">всички</option><option value="1">Монография</option><option value="2">Студия</option><option value="3">Статия</option><option value="4">Доклад</option><option value="5">Учебник</option><option value="6">Учебно помагало</option><option value="7">Други</option></select>
+                    </div>
+                    <label for="indexed" class="control-label" style="margin-right:30px;">Индекс</label>
+                    <select id="district_id" multiple="1" class="selectpicker" title="Изберете видове индексиране" data-actions-box="true" data-width="260px" data-deselect-all-text="Откажи" data-select-all-text="Всички" name="indexed[]"><option value="7">Scopus</option><option value="2">Web of Science Q1</option><option value="3">Web of Science Q2</option><option value="5">Web of Science Q3</option><option value="6">Web of Science Q4 или Scopus</option><option value="4">други индексирани издания</option></select>
+                             </div>
+            <div class="form-validate form-inline" style="margin-top:20px;">
+                <div class="form-group">
+                <label for="year_start" class="control-label" style="margin-right:10px;">Година</label>
+                    <div class="select-style" style="margin-right:15px;width:70px;">
+                        <select class="" id="year_start" name="year_start"><option value="">от</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option></select>
+                    </div>
+                    <div class="select-style" style="margin-right:29px;width:70px; ">
+                        <select class="" name="year_end"><option value="">до</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option></select>
+                    </div>
+                    <label for="title" class="control-label" style="margin-right:17px;">Заглавие</label>
+                    <input class="form-control" style="width:260px;" name="title" type="text" value="" id="title">
+                </div>
+                <input class="btn btn-default submit-me pull-right" type="submit" value="Филтрирай">
+            </div>
+            </form>
+                        <table class="table table-striped table-bordered table-stats">
+                <colgroup> 
+                    <col class="">
+                    <col class="col-xs-1"> 
+                    <col class="col-xs-1"> 
+                    <col class="col-xs-1"> 
+                    <col class="col-xs-9">
+                </colgroup> 
+                <thead style="font-size:12px;"> 
+                    <tr>
+                        <th>№</th>
+                        <th><a href='https://publications.ue-varna.bg/list-author/O7Pj/sort/name/desc/от/до/0/"0"/empty' class="" style="color:black;display:inline;" data-toggle="tooltip" data-placement="top" title="Сортирай"> <i class="glyphicon glyphicon-sort"></i></a> Вид </th> 
+                        <th><a href='https://publications.ue-varna.bg/list-author/O7Pj/sort/year_pub/desc/от/до/0/"0"/empty' class="" style="color:black;display:inline;" data-toggle="tooltip" data-placement="top" title="Сортирай"> <i class="glyphicon glyphicon-sort"></i></a> Година</th> 
+                        <th><a href='https://publications.ue-varna.bg/list-author/O7Pj/sort/indexed/desc/от/до/0/"0"/empty' class="" style="color:black;display:inline;" data-toggle="tooltip" data-placement="top" title="Сортирай"> <i class="glyphicon glyphicon-sort"></i> </a> Индекс</th>
+                        <th style="position:relative;">
+                                                        Публикация <span style="position:absolute;right:5px;bottom:1px;"> Влезте в профила си, за да изтеглите PDF или Excel</span></th>
+                    </tr> 
+                </thead> 
+                <tbody> 
+                                        <tr> 
+                        <td>1</td>
+                        <th scope="row"> 
+                            Статия
+                        </th> 
+                        <td>
+                            2021
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                                                                                                                                                                                                            Scopus
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Eskenazi, A., Maneva, N., Ivanova, K. Computer Science Research – Unity in Variety. Research in Computer Science in the Bulgarian Academy of Sciences. Studies in Computational Intelligence, Springer, 2021, 934, 7-22., ISSN(печатно) 1860949X / DOI <a href="https://doi.org/10.1007/978-3-030-72284-5_2">10.1007/978-3-030-72284-5_2</a> / <a href="https://www.scopus.com/record/display.uri?eid=2-s2.0-85111101748&origin=resultslist&sort=plf-f&src=s&st1=Computer+Science+Research+%e2%80%93+Unity+in+Variety&sid=f4830c0c18366f8a577ab1485199f62b&sot=b&sdt=b&sl=59&s=TITLE-ABS-KEY%28Computer+Science+Research+%e2%80%93+Unity+in+Variety%29&relpos=0&citeCnt=0&searchTerm=">Scopus</a></td> 
+                    </tr>
+                                        <tr> 
+                        <td>2</td>
+                        <th scope="row"> 
+                            Доклад
+                        </th> 
+                        <td>
+                            2021
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    други индексирани издания
+                                                             
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Angelova, G., Nisheva-Pavlova, M., Eskenazi, A., Ivanova, K. Role of Education and Research for Artificial Intelligence Development in Bulgaria until 2030. Fiftieth Jubilee Spring Conference of the Union of Bulgarian Mathematicians : Processing, Sofia : Union of Bulgarian Mathematicians, 2021, 71-82. ., ISSN(печатно) 1313-3330</td> 
+                    </tr>
+                                        <tr> 
+                        <td>3</td>
+                        <th scope="row"> 
+                            Доклад
+                        </th> 
+                        <td>
+                            2020
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        други индексирани издания
+                                                                                                                         
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Иванова, К., Нишева, М., Ескенази, А., Ангелова, Г., Манева, Н. Изкуствен интелект в и за образованието в България – мерки за постигане на надежден интелигентен растеж. Образованието и изследванията в информационното общество : Сборник доклади : Тринадесета Национална конференция, 05.11.2020, Пловдив, София : Асоциация Развитие на информационното общество , 2020, 7-20. ., ISSN(печатно) 2534-8663</td> 
+                    </tr>
+                                        <tr> 
+                        <td>4</td>
+                        <th scope="row"> 
+                            Статия
+                        </th> 
+                        <td>
+                            2016
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                        други индексирани издания
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Ескенази, А., Станчев, П. Професор Петър Бърнев - 80 години от рождението му. Наука, София : Съюз на учените в България, 2016, 1, 63 - 68.</td> 
+                    </tr>
+                                        <tr> 
+                        <td>5</td>
+                        <th scope="row"> 
+                            Доклад
+                        </th> 
+                        <td>
+                            2016
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                                                                                    Няма
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Ескенази, А., Станчев, П. 80 години от рождението на професор Петър Бърнев : [Доклад по покана]. Математика и математическо образование : Доклади на Четиридесет и пета пролетна конференция на Съюза на математиците в България 45 пролетна конференция на СМБ, Плевен, 6 - 10 април 2016, София : Съюз на математиците в България, 2016, 14 - 24.</td> 
+                    </tr>
+                                        <tr> 
+                        <td>6</td>
+                        <th scope="row"> 
+                            Доклад
+                        </th> 
+                        <td>
+                            2016
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                                                                                                                                                Няма
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Ескенази, А. За въздействието на информатиката върху един съществен фактор в икономиката и обществото. Предизвикателства пред информационните технологии в контекста на Хоризонт 2020, Свищов, 7 - 8 октомври 2016 : Сборник доклади на международна научна конференция, Свищов : СА Ценов - Свищов, 2016, 12 - 18.</td> 
+                    </tr>
+                                        <tr> 
+                        <td>7</td>
+                        <th scope="row"> 
+                            Статия
+                        </th> 
+                        <td>
+                            2014
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                            други индексирани издания
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Delinov, E., Eskenazi, A. An Approach for a More Objective Evaluation of Practical Projects Used in the Training Process. Serdica Journal of Computing, Sofia : Bulgarian Academy of Sciences, Institute of Mathematics and informatics, Vol. 8, 2014, No 4, 409 - 432.</td> 
+                    </tr>
+                                        <tr> 
+                        <td>8</td>
+                        <th scope="row"> 
+                            Доклад
+                        </th> 
+                        <td>
+                            2013
+                        </td>
+                        <td style="position:relative;">
+                                                                                                други индексирани издания
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Galabova, M., Eskenazi, A. An Attempt to Apply Lean Principles and Practices to Scrum. Proc. of 9th Annual Intl. Conf. on Computer Science and Education in Computer Science,  29 June - 2 July 2013, Würzburg, Germany : Univ. Fulda, 2013, 33 - 36.</td> 
+                    </tr>
+                                        <tr> 
+                        <td>9</td>
+                        <th scope="row"> 
+                            Статия
+                        </th> 
+                        <td>
+                            1993
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Web of Science Q3
+                                                                                                                                                                                                                                                 
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Eskenasi, A., Vasileva, J., Boyadjieva, T. Incorporating Student Models in Adaptive Testing Systems. Educational and Training Technology International, Elsevier, 30, 1993, 2, 135-142.</td> 
+                    </tr>
+                                        <tr> 
+                        <td>10</td>
+                        <th scope="row"> 
+                            Статия
+                        </th> 
+                        <td>
+                            1989
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Web of Science Q1
+                                                                                                                                                                                                                                                                                                                                                                         
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Eskenasi, A. Evaluation of Software Quality by Means of Classification Methods. Journal of Systems and Software, Elsevier, 10, 1989, 3, 213-216.</td> 
+                    </tr>
+                                        <tr> 
+                        <td>11</td>
+                        <th scope="row"> 
+                            Статия
+                        </th> 
+                        <td>
+                            1989
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Scopus
+                                                                                                                                                                                                                                                                                                             
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Eskenasi, A., Radev, R. Quality Evaluation of Authoring Systems. Education and Computing, Elsevier, 199, 1989, 5, 43-47.</td> 
+                    </tr>
+                                        <tr> 
+                        <td>12</td>
+                        <th scope="row"> 
+                            Статия
+                        </th> 
+                        <td>
+                            1986
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                други индексирани издания,Web of Science Q3
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Mitkov, R., Pavlov, A., Eskenasi, A. Testing in Bulgaria wth microcomputers. Revista de Informatica y  Automatica, Madrid, 19, 1986, 3, 20-23.</td> 
+                    </tr>
+                                        <tr> 
+                        <td>13</td>
+                        <th scope="row"> 
+                            Статия
+                        </th> 
+                        <td>
+                            1986
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            други индексирани издания
+                                                                                                                                                                                                                                                                                                                                                                                                                                     
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Pavlov, R., Mitkov, R., Eskenasi, A. Personal computer aided testing and training system. Tanulmanyok, Budapest, 194, 1986, 1, 143-154.</td> 
+                    </tr>
+                                        <tr> 
+                        <td>14</td>
+                        <th scope="row"> 
+                            Статия
+                        </th> 
+                        <td>
+                            1980
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        други индексирани издания
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Eskenasi, A. A language for computer assisted test construction. Wiss. Zeitschrift der TU Dresden, Dresden, TU, 28, 1980, 2, 14-17.</td> 
+                    </tr>
+                                        <tr> 
+                        <td>15</td>
+                        <th scope="row"> 
+                            Доклад
+                        </th> 
+                        <td>
+                            1980
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    други индексирани издания
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Ескенази, А. Автоматично генериране на тестове. Семинар по информатика на СМБ 1975-1977 г, СМБ, 1980, 78-81.</td> 
+                    </tr>
+                                        <tr> 
+                        <td>16</td>
+                        <th scope="row"> 
+                            Статия
+                        </th> 
+                        <td>
+                            1980
+                        </td>
+                        <td style="position:relative;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            други индексирани издания
+                                                                                                                                                                                     
+                        </td>
+                        <td class="break-me-into-pieces">
+                   Зарев, А., Ескенази, А. Многотерминална система за генериране на тестове за контрол на обучението. АСУ, София, 1979, 1980, 2, 53-58.</td> 
+                    </tr>
+                                    </tbody>
+            </table>
+
+        </div>
+    </div>
+                    </div>
+                            </div>
+        </div>
+        <script src="https://publications.ue-varna.bg/assets/js/bootstrap.min.js"></script>
+
+        <script src="https://publications.ue-varna.bg/assets/js/jquery-ui.min.js"></script>
+
+        <script src="https://publications.ue-varna.bg/assets/js/sweetalert2.all.js"></script>
+
+        <script src="https://publications.ue-varna.bg/assets/js/javascriptv5.js"></script>
+
+    </body>
+</html>
